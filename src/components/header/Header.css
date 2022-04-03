@@ -1,0 +1,26 @@
+@media screen and (max-width:768px){
+    .menu{
+        position: absolute;
+        top: 8rem;
+        left: 0;
+        transform: translateX(0);
+        width: 50%;
+        background: rgb(29, 4, 56);
+        height:calc(100vh - 8rem);
+        text-align: center;
+        padding-top: 2rem;
+        transition: .3s all;
+    }
+    .menu li{
+        padding: 1rem 0;
+        transition: .3s all;
+    }
+    .terminets{
+        transform: translateX(-90rem);
+        height:calc(100vh - 8rem);
+        opacity: 0;
+    }
+    .menu li:hover{
+        background-color: rgba(1, 1, 82, 0.959);
+    }
+}
