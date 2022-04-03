@@ -17,7 +17,7 @@ const Header = () => {
     return (
         <div className='w-full relative h-[8rem] bg-gray-700 text-white md:px-8 px-4 '>
             <nav className='max-w-screen-lg mx-auto flex justify-between items-center h-full '>
-                <div className="logo">
+                <div className="logo w-[17rem]">
                     <img src={logo2} alt="" />
                 </div>
                 
