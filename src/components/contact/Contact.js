@@ -2,9 +2,9 @@ import React from 'react';
 import contact from '../../images/3-Jun-23-2021-02-47-41-19-AM.webp'
 const Contact = () => {
     return (
-        <div className='w-[90%] h-[80vh] mx-auto'>
+        <div className='w-[90%]  mx-auto'>
             <h1 className='text-5xl text-center mt-[6rem]'>Contact Us</h1>
-            <div className='flex items-center justify-between h-full w-full mx-auto mt-[5rem] md:mt-0'>
+            <div className='flex items-center justify-between h-[80vh] w-full mx-auto mt-[5rem] md:mt-0'>
                 <div className='md:flex items-center justify-between h-full w-[88rem] mx-auto'>
                     <form className='flex items-center justify-center flex-col md:w-[45rem] w-[38rem] mx-auto'>
                         <div className='w-[80%] mx-auto'>
@@ -24,12 +24,9 @@ const Contact = () => {
                         </div>
 
                     </form>
-                    <div className='w-[32rem] mt-[4rem] md:mt-0 mx-auto'>
+                    <div className='w-[32rem] mt-[4rem] md:mt-0 mx-auto mb-[2rem] md:mb-0'>
                         <img className='w-full object-cover' src={contact} alt="" />
                     </div>
-                </div>
-                <div>
-                    <img src="" alt="" />
                 </div>
             </div>
         </div>

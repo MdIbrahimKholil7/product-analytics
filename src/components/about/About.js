@@ -1,11 +1,13 @@
 import React from 'react';
 import about from '../../images/about.jpg'
+
+
 const About = () => {
     return (
-        <div className='w-full md:h-full '>
-            <div className='w-[80%] h-[100vh] mx-auto '>
+        <div>
+            <div className='w-[80%] mx-auto '>
                 <h1 className='text-5xl text-center font-bold mt-[7rem] md:mt-11'>About Us</h1>
-                <div className='md:flex justify-between items-center md:w-[87rem]  mx-auto h-full'>
+                <div className='md:flex justify-between items-center md:w-[87rem]  mx-auto h-[90vh]'>
                     <div className='md:w-[50rem] w-[40rem] mx-auto md:mb-0 mb-[7rem] md:mt-0 mt-[9rem]'>
                         <h1 className='text-5xl font-bold mb-[2rem]'>Who We Are</h1>
                         <p className='text-3xl leading-10'>We art the best seller.We are always try to give best product of our customer.We have best quality product.</p>
