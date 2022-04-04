@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div className='bg-slate-300 px-9'>
-            <div className='max-w-[50rem] mx-auto pt-[4rem] rounded-md '>
+            <div className='max-w-[50rem] mx-auto h-[100vh] pt-[4rem] rounded-md '>
                 <h1 className='text-center text-7xl font-bold mb-9 '>Question?</h1>
                 <div className='grid grid-cols-1 gap-20'>
 
@@ -16,7 +16,7 @@ const Blog = () => {
                     <article className='mt-[2rem] border-2 rounded-lg border-slate-500 px-5 py-8 '>
                         <h1 className='text-3xl mb-7'>What is semantic tag?</h1>
                         <p className='text-2xl leading-10'><strong>Ans:</strong>
-                            HTML 5 introduce semantic tag.A semantic tag describe its meaning very easily both to meachine and human.Semantic html tag are describe the meaning very easily so machine and human can read its very easily.
+                            HTML 5 introduce semantic tag.A semantic tag describe its meaning very easily both to meachine and human.Semantic html tag are describe the meaning very easily so machine and human can read its very easily..
 
                         </p>
                     
