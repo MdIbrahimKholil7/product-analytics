@@ -9,6 +9,7 @@ import About from './components/about/About';
 import CustomerReview from './components/customerReview/CustomerReview';
 import Dashboard from './components/dashboard/Dashboard';
 import Contact from './components/contact/Contact';
+import NotFound from './components/notFound/NotFound';
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
         <Route path='/about' element={<About />}></Route>
         <Route path='/contact' element={<Contact />}></Route>
         <Route path='/dashboard' element={<Dashboard/>}></Route>
+        <Route path='*' element={<NotFound/>}></Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
