@@ -19,14 +19,14 @@ const Home = () => {
                     <img className='w-full h-auto object-cover' src={laptop} alt="" />
                 </div>
             </div>
-            <section className='text-center'>
+            <section className='text-center mb-[10rem]'>
                 <h1 className='text-5xl text-center font-bold mb-[4rem] '>What Our Customer Say</h1>
-                <div className='grid md:grid-cols-3 gap-10'>
+                <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-10'>
                     {
                         data.slice(0, 3).map(data => <Review key={data.id} data={data} />)
                     }
                 </div>
-                <button className='py-3 px-6 bg-lime-800 rounded-lg mt-9 text-3xl text-white'>Show All Review</button>
+                <button className='py-3 px-6 bg-lime-800 mb-7 rounded-lg mt-9 text-3xl text-white'>Show All Review</button>
             </section>
         </div>
 

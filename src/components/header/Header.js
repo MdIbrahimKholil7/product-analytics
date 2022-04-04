@@ -8,7 +8,7 @@ const Header = () => {
     const [open, setOpen] = useState(false)
     const links = [
         { name: 'Home', path: '/', id: 1 },
-        { name: 'Review', path: '/review', id: 2 },
+        { name: 'Review', path: '/customerReview', id: 2 },
         { name: 'Blog', path: '/blog', id: 3 },
         { name: 'About', path: '/about', id: 4 },
         { name: 'Contact', path: '/contact', id: 5 },
