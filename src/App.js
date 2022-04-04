@@ -8,6 +8,7 @@ import Blog from './components/blog/Blog';
 import About from './components/about/About';
 import CustomerReview from './components/customerReview/CustomerReview';
 import Dashboard from './components/dashboard/Dashboard';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
         <Route path='/customerReview' element={<CustomerReview/>}></Route>
         <Route path='/blog' element={<Blog />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/contact' element={<Home />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
         <Route path='/dashboard' element={<Dashboard/>}></Route>
       </Routes>
       {/* <Footer /> */}
