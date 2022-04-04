@@ -31,7 +31,7 @@ const Header = () => {
                         </li>)
                     }
                 </ul>
-                <div className=' md:hidden' onClick={() => setOpen(!open)}>
+                <div className=' md:hidden cursor-pointer' onClick={() => setOpen(!open)}>
                 {
                     open ? <XIcon className='w-9 h-9 font-white' /> : <MenuIcon className='w-9 h-9 font-white' />
                 }
