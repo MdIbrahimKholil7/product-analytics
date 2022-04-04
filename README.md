@@ -1,6 +1,6 @@
 # Welcome to my web store
 My Live Site Link [https://laptopshop-2dc4f8.netlify.app/]
--In my website you can see my site details
+- In my website you can see my site details
 - A Navigation Bar
 - There Are Four Pages
 - Home page
