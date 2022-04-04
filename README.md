@@ -1,6 +1,5 @@
 # Welcome to my web store
-
- [Create React App](https://github.com/facebook/create-react-app).
+My Live Site Link [https://laptopshop-2dc4f8.netlify.app/]
 -In my website you can see my site details
 - A Navigation Bar
 - There Are Four Pages
