@@ -1,12 +1,12 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useData from '../../hooks/useData';
 import laptop from '../../images/laptop.jpg'
 import Review from '../review/Review';
 import './Home.css'
 const Home = () => {
     const [data, setData] = useData()
-    // const newData=data.slice(0,3)
-    // console.log(newData)
+    const navigate=useNavigate()
     return (
         <div className='w-full h-[70vh] md:h-[88vh] px-10 ' >
             <div className='md:flex hero justify-between items-center h-full w-full'>
@@ -26,7 +26,7 @@ const Home = () => {
                         data.slice(0, 3).map(data => <Review key={data.id} data={data} />)
                     }
                 </div>
-                <button className='py-3 px-6 bg-lime-800 mb-7 rounded-lg mt-9 text-3xl text-white'>Show All Review</button>
+                <button onClick={()=> navigate('/customerReview')} className='py-3 px-6 bg-lime-800 mb-7 rounded-lg mt-9 text-3xl text-white'>Show All Review</button>
             </section>
         </div>
 
