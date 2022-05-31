@@ -6,6 +6,7 @@ import { BeakerIcon, MenuIcon, XIcon } from '@heroicons/react/solid'
 
 const Header = () => {
     const [open, setOpen] = useState(false)
+    // menu links 
     const links = [
         { name: 'Home', path: '/', id: 1 },
         { name: 'Review', path: '/customerReview', id: 2 },
